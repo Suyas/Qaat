@@ -24,6 +24,8 @@ public class CityListActivity extends Activity {
 
     Double dLatTo = 0.0;
     Double dLonTo = 0.0;
+    Double dLnTo = 0.0;
+
     private boolean locationStatus;
 
     String pname;
