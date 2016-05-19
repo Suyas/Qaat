@@ -29,6 +29,7 @@ public class CityListActivity extends Activity {
 
     private boolean locationStatus;
 
+
     String pname;
     GPSTracker gps;
 
