@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "D:\\Main\\time_picker\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_date_picker_dialog.xml",
+        "source": "D:\\Main\\time_picker\\src\\main\\res\\layout\\mdtp_date_picker_dialog.xml"
+    },
+    {
+        "merged": "D:\\Main\\time_picker\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_date_picker_view_animator.xml",
+        "source": "D:\\Main\\time_picker\\src\\main\\res\\layout\\mdtp_date_picker_view_animator.xml"
+    },
+    {
+        "merged": "D:\\Main\\time_picker\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_time_header_label.xml",
+        "source": "D:\\Main\\time_picker\\src\\main\\res\\layout\\mdtp_time_header_label.xml"
+    },
+    {
+        "merged": "D:\\Main\\time_picker\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_time_header_label_end.xml",
+        "source": "D:\\Main\\time_picker\\src\\main\\res\\layout\\mdtp_time_header_label_end.xml"
+    },
+    {
+        "merged": "D:\\Main\\time_picker\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_date_picker_selected_date.xml",
+        "source": "D:\\Main\\time_picker\\src\\main\\res\\layout\\mdtp_date_picker_selected_date.xml"
+    },
+    {
+        "merged": "D:\\Main\\time_picker\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_year_label_text_view.xml",
+        "source": "D:\\Main\\time_picker\\src\\main\\res\\layout\\mdtp_year_label_text_view.xml"
+    },
+    {
+        "merged": "D:\\Main\\time_picker\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_date_picker_header_view.xml",
+        "source": "D:\\Main\\time_picker\\src\\main\\res\\layout\\mdtp_date_picker_header_view.xml"
+    },
+    {
+        "merged": "D:\\Main\\time_picker\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_date_picker_view_animator_end.xml",
+        "source": "D:\\Main\\time_picker\\src\\main\\res\\layout\\mdtp_date_picker_view_animator_end.xml"
+    },
+    {
+        "merged": "D:\\Main\\time_picker\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_date_picker_selected_date_end.xml",
+        "source": "D:\\Main\\time_picker\\src\\main\\res\\layout\\mdtp_date_picker_selected_date_end.xml"
+    },
+    {
+        "merged": "D:\\Main\\time_picker\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_time_picker_dialog.xml",
+        "source": "D:\\Main\\time_picker\\src\\main\\res\\layout\\mdtp_time_picker_dialog.xml"
+    },
+    {
+        "merged": "D:\\Main\\time_picker\\build\\intermediates\\res\\merged\\release\\layout\\mdtp_done_button.xml",
+        "source": "D:\\Main\\time_picker\\src\\main\\res\\layout\\mdtp_done_button.xml"
+    }
+]

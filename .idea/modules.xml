@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Main.iml" filepath="$PROJECT_DIR$/Main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ParallaxScroll/ParallaxScroll.iml" filepath="$PROJECT_DIR$/ParallaxScroll/ParallaxScroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calander_library/calander_library.iml" filepath="$PROJECT_DIR$/calander_library/calander_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/time_picker/time_picker.iml" filepath="$PROJECT_DIR$/time_picker/time_picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timerangepicker-library/timerangepicker-library.iml" filepath="$PROJECT_DIR$/timerangepicker-library/timerangepicker-library.iml" />
+    </modules>
+  </component>
+</project>

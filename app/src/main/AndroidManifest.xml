@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.omega.weddingapp.main">
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <permission
+        android:name="com.omega.weddingapp.main.source.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="com.work.weddingapp.source.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+
+    <application
+        android:name="com.omega.parse.WeddingApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.omega.weddingapp.main.QaatSplash"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.omega.weddingapp.city.CityListActivity"
+            android:label="City List" >
+
+        </activity>
+        <activity
+            android:name="com.omega.weddingapp.halls.HallListActivity"
+            android:label="Hall List" />
+        <!-- <activity
+             android:name="com.omega.calendar.CalendarView"
+             android:label="Main activity" />-->
+        <activity
+            android:name=".MainActivity"
+            android:label="Main activity" >
+
+        </activity>
+        <activity
+            android:name="com.omega.wedingapp.map.ContactUs"
+            android:label="contacts" />
+        <activity
+            android:name="com.omega.halldetails.HallActivity"
+            android:label="Hall" />
+        <activity android:name="com.omega.weddingapp.admin.AdminHallList"></activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/map_key" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:name="com.omega.addnewhall.AddnewHall"
+            android:label="@string/title_activity_addnew_hall" />
+        <!-- <activity android:name="com.omega.parse.SingleParallaxScrollView"></activity> -->
+        <activity
+            android:name=".InformationAcctivity"
+            android:label="@string/title_activity_information_acctivity" />
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up" />
+        <activity
+            android:name="com.omega.weddingapp.admin.TaskList"
+            android:label="@string/title_activity_task_list" />
+        <activity
+            android:name="com.omega.weddingapp.admin.ShowLogs"
+            android:label="@string/title_activity_show_logs" />
+        <activity
+            android:name="com.omega.halldetails.BookedDatesDetails"
+            android:label="@string/title_activity_booked_dates_details"></activity>
+        <activity
+            android:name="com.omega.weddingapp.admin.ConfirmEnquiries"
+            android:label="@string/title_activity_confirm_enquiries"></activity>
+        <activity
+            android:name="com.omega.weddingapp.admin.BlockDates"
+            android:label="@string/title_activity_block_dates"></activity>
+
+    </application>
+
+</manifest>

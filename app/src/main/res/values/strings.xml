@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Main</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="ok">حسنا</string>
+    <string name="accept">وافق</string>
+    <string name="reject">رفض</string>
+    <string name="internet_not_available"> الإنترنت هو اون متاح </string>
+    <string-array name="Governorate_of_Muscat">
+        <item>ولاية مسقط</item>
+        <item>ولاية السيب</item>
+        <item>ولاية مطرح</item>
+        <item>ولاية بوشر</item>
+        <item>ولاية العامرات</item>
+        <item>ولاية قريات</item>
+    </string-array>
+    <string-array name="Governorate_of_Dhofar">
+        <item>ولاية صلالة</item>
+        <item>ولاية ثمريت</item>
+        <item>ولاية طاقة</item>
+        <item>ولاية رخيوت</item>
+        <item>ولاية سدح</item>
+        <item>ولاية مرباط</item>
+        <item>ولاية شليم وجزر الحلانيات</item>
+        <item>ولاية مقشن</item>
+        <item>ولاية ضلكوت</item>
+        <item>ولاية المزيونة</item>
+    </string-array>
+    <string-array name="Governorate_of_Musandam">
+        <item>ولاية بخا</item>
+        <item>ولاية خصب</item>
+        <item>ولاية مدحاء</item>
+        <item>ولاية دباء</item>
+    </string-array>
+    <string-array name="Governorate_of_Buraimi">
+        <item>ولاية البريمي</item>
+        <item>ولاية محضة</item>
+        <item>ولاية السنينة</item>
+    </string-array>
+    <string-array name="Governorate_of_Al_Dakhiliyah">
+        <item>ولاية نزوى</item>
+        <item>ولاية سمائل</item>
+        <item>ولاية بهلا</item>
+        <item>ولاية أدم</item>
+        <item>ولاية الحمراء</item>
+        <item>ولاية منح</item>
+        <item>ولاية إزكي</item>
+        <item>ولاية بدبد</item>
+    </string-array>
+    <string-array name="Governorate_of_Al_Batinah_North">
+        <item>ولاية صحار</item>
+        <item>ولاية شناص</item>
+        <item>ولاية لوى</item>
+        <item>ولاية صحم</item>
+        <item>ولاية الخابورة</item>
+        <item>ولاية السويق</item>
+    </string-array>
+    <string-array name="Governorate_of_Al_Batinah_South">
+        <item>ولاية الرستاق</item>
+        <item>ولاية العوابي</item>
+        <item>ولاية نخل</item>
+        <item>ولاية وادي المعاول</item>
+        <item>ولاية بركاء</item>
+        <item>ولاية المصنعة</item>
+    </string-array>
+    <string-array name="Governorate_of_Al_Sharqiyah_North">
+        <item>ولاية إبراء</item>
+        <item>ولاية المضيبي</item>
+        <item>ولاية القابل</item>
+        <item>ولاية بدية</item>
+        <item>ولاية دماء والطائيين</item>
+        <item>ولاية وادي بني خالد</item>
+    </string-array>
+    <string-array name="Governorate_of_Al_Sharqiyah_South">
+        <item>ولاية صور</item>
+        <item>ولاية جعلان بني بو علي</item>
+        <item>ولاية جعلان بني بو حسن</item>
+        <item>ولاية مصيرة</item>
+        <item>ولاية الكامل والوافي</item>
+    </string-array>
+    <string-array name="Governorate_of_Al_Dhahirah">
+        <item>ولاية عبري</item>
+        <item>ولاية ضنك</item>
+        <item>ولاية ينقل</item>
+    </string-array>
+    <string-array name="Governorate_of_Al_Wusta">
+        <item>ولاية هيما</item>
+        <item>ولاية محوت</item>
+        <item>ولاية الدقم</item>
+        <item>ولاية الجازر</item>
+    </string-array>
+
+    <string name="gps_message">Please switch on location providers-GPS, Location providers</string>
+    <string name="net_message">Please switch on internet</string>
+    <string name="map_key">AIzaSyDi1RrRzvsHYeLmzgWVPYX_MCbN3n99JB4</string>
+    <string name="title_activity_add_new_hall">AddNewHallActivity</string>
+    <string name="title_activity_addnew_hall">AddnewHall</string>
+    <string name="title_activity_information_acctivity">InformationAcctivity</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_task_list">TaskList</string>
+    <string name="title_activity_show_logs">ShowLogs</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_booked_dates_details">BookedDatesDetails</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_confirm_enquiries">ConfirmEnquiries</string>
+    <string name="title_activity_block_dates">BlockDates</string>
+
+</resources>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/addhallbg"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#a3abad" />
+
+
+    <LinearLayout
+        android:id="@+id/myrootlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/emailhallname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".3"
+            android:text="Medium Text"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/fromdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Medium Text"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/fromtime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="التوقيت غير محدد"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/todate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Medium Text"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/totime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:paddingLeft="5dp"
+                    android:text="التوقيت غير محدد"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.4"
+            android:gravity="center"
+
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_dates"
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_selector"
+                android:gravity="center"
+                android:text="اختر توقيت الحجز
+"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lll"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".8"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/vl"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight=".3"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/user_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ediitext_bg_and_border"
+                    android:ems="10"
+                    android:hint="الاسم كاملا"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="3dp"
+                    android:textColor="#B05F2F"
+                    android:textColorHint="#B05F2F"
+                    android:textCursorDrawable="@null">
+
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/user_phone_no"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight=".7"
+            android:background="@drawable/ediitext_bg_and_border"
+            android:ems="10"
+            android:hint="رقم الهاتف"
+            android:inputType="phone"
+            android:paddingLeft="10dp"
+            android:paddingRight="3dp"
+            android:textColor="#B05F2F"
+            android:textColorHint="#B05F2F"
+            android:textCursorDrawable="@null" />
+
+        <EditText
+            android:id="@+id/user_email"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight=".7"
+            android:background="@drawable/ediitext_bg_and_border"
+            android:ems="10"
+            android:hint="البريد الالكتروني"
+            android:inputType="phone"
+            android:paddingLeft="10dp"
+            android:paddingRight="3dp"
+            android:textColor="#B05F2F"
+            android:textColorHint="#B05F2F"
+            android:textCursorDrawable="@null" />
+
+        <EditText
+            android:id="@+id/subject"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight=".7"
+            android:background="@drawable/ediitext_bg_and_border"
+            android:ems="10"
+            android:hint="الموضوع"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:paddingRight="3dp"
+            android:textColor="#B05F2F"
+            android:textColorHint="#B05F2F"
+            android:textCursorDrawable="@null" />
+
+        <EditText
+            android:id="@+id/msg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="2"
+            android:background="@drawable/ediitext_bg_and_border"
+            android:gravity="left"
+            android:hint="الرسالة"
+            android:imeOptions="actionDone"
+            android:inputType="textAutoCorrect|textCapSentences|textMultiLine"
+            android:maxLines="3"
+            android:paddingLeft="10dp"
+            android:paddingRight="3dp"
+            android:textColor="#B05F2F"
+            android:textColorHint="#B05F2F"
+            android:textCursorDrawable="@null">
+
+            <requestFocus />
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1.4">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight=".4"></LinearLayout>
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="177dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight=".6"
+                android:background="@drawable/button_selector"
+                android:gravity="center"
+                android:text="ارسل"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight=".4"></LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

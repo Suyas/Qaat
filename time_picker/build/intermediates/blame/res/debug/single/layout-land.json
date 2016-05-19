@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Main\\time_picker\\build\\intermediates\\res\\merged\\debug\\layout-land\\mdtp_date_picker_dialog.xml",
+        "source": "D:\\Main\\time_picker\\src\\main\\res\\layout-land\\mdtp_date_picker_dialog.xml"
+    },
+    {
+        "merged": "D:\\Main\\time_picker\\build\\intermediates\\res\\merged\\debug\\layout-land\\mdtp_time_picker_dialog.xml",
+        "source": "D:\\Main\\time_picker\\src\\main\\res\\layout-land\\mdtp_time_picker_dialog.xml"
+    }
+]
