@@ -20,6 +20,8 @@ public class CityListActivity extends Activity {
 
     private List<CityRowItem> rowItems;
 
+    Double dLatiTo = 0.0;
+
     Double dLatTo = 0.0;
     Double dLonTo = 0.0;
     private boolean locationStatus;
