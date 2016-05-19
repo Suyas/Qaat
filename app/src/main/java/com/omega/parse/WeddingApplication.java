@@ -57,6 +57,9 @@ public class WeddingApplication extends Application {
                 .build();
 
 
+
+
+
         //Create a config with those options.
         ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(getApplicationContext())
                 .defaultDisplayImageOptions(options)

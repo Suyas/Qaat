@@ -41,6 +41,8 @@ public class HallActivity extends FragmentActivity implements TabListener {
 
     public static ArrayList<HallGalleryPogo> images = null;
 
+
+
     ArrayList<String> data = new ArrayList<String>();
 
     private MyViewPager MyViewPager;

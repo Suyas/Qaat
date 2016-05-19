@@ -484,8 +484,6 @@ public class AddnewHall extends Activity {
             }
 
 
-
-
             @Override
             public void onProviderDisabled(String provider) {
 

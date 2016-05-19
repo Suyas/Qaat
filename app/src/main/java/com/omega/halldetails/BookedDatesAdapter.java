@@ -22,7 +22,7 @@ public class BookedDatesAdapter extends BaseAdapter {
     ArrayList<BookedDatesPOJO> items;
     Context context;
     String hallName;
-    String adminEmail;
+    String adminEmail,add;
 
 
     public BookedDatesAdapter(ArrayList<BookedDatesPOJO> items, Context context, String hallName,String adminEmail) {
@@ -31,6 +31,8 @@ public class BookedDatesAdapter extends BaseAdapter {
         this.hallName = hallName;
         this.adminEmail = adminEmail;
     }
+
+
 
     @Override
     public int getCount() {
@@ -50,6 +52,7 @@ public class BookedDatesAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
         ViewHolder holder = null;
+
 
         LayoutInflater mInflater = (LayoutInflater) context
                 .getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
