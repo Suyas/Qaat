@@ -5,6 +5,7 @@ public class CityRowItem {
     private String title;
     private String description;
 
+
     public CityRowItem(String title, String desc) {
         this.title = title;
         this.description = desc;
