@@ -23,6 +23,7 @@ public class HallGalleryFragment extends Fragment {
     // ImageAdapter adapter;
     ArrayList<HallGalleryPogo> images = null;
     String hallname;
+
     // public static ArrayList<Integer> img=new ArrayList<Integer>();
 
 
