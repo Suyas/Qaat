@@ -2,5 +2,9 @@
     {
         "merged": "D:\\Main\\calander_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\calendar_bg_selector.xml",
         "source": "D:\\Main\\calander_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\calendar_bg_selector.xml"
+    },
+    {
+        "merged": "E:\\Main\\calander_library\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\calendar_bg_selector.xml",
+        "source": "E:\\Main\\calander_library\\build\\intermediates\\bundles\\debug\\res\\drawable\\calendar_bg_selector.xml"
     }
 ]

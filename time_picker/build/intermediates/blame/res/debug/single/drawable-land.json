@@ -6,5 +6,13 @@
     {
         "merged": "D:\\Main\\time_picker\\build\\intermediates\\res\\merged\\debug\\drawable-land\\mdtp_done_background_color.xml",
         "source": "D:\\Main\\time_picker\\src\\main\\res\\drawable-land\\mdtp_done_background_color.xml"
+    },
+    {
+        "merged": "E:\\Main\\time_picker\\build\\intermediates\\res\\merged\\debug\\drawable-land\\mdtp_done_background_color.xml",
+        "source": "E:\\Main\\time_picker\\src\\main\\res\\drawable-land\\mdtp_done_background_color.xml"
+    },
+    {
+        "merged": "E:\\Main\\time_picker\\build\\intermediates\\res\\merged\\debug\\drawable-land\\mdtp_done_background_color_dark.xml",
+        "source": "E:\\Main\\time_picker\\src\\main\\res\\drawable-land\\mdtp_done_background_color_dark.xml"
     }
 ]

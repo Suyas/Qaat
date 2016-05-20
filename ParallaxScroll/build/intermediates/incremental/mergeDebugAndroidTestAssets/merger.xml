@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="debug"><source path="D:\Main\ParallaxScroll\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="D:\Main\ParallaxScroll\src\androidTest\assets"/><source path="D:\Main\ParallaxScroll\build\generated\assets\shaders\androidTest\debug"/></dataSet></merger>
+<merger version="3"><dataSet config="debug"><source path="E:\Main\ParallaxScroll\build\intermediates\bundles\debug\assets"/></dataSet><dataSet config="main"><source path="E:\Main\ParallaxScroll\src\androidTest\assets"/><source path="E:\Main\ParallaxScroll\build\generated\assets\shaders\androidTest\debug"/></dataSet></merger>

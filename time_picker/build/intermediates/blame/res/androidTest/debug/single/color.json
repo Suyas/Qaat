@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\Main\\time_picker\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\mdtp_done_text_color.xml",
+        "source": "E:\\Main\\time_picker\\build\\intermediates\\bundles\\debug\\res\\color\\mdtp_done_text_color.xml"
+    },
+    {
         "merged": "D:\\Main\\time_picker\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\mdtp_done_text_color_dark.xml",
         "source": "D:\\Main\\time_picker\\build\\intermediates\\bundles\\debug\\res\\color\\mdtp_done_text_color_dark.xml"
     },
@@ -8,8 +12,20 @@
         "source": "D:\\Main\\time_picker\\build\\intermediates\\bundles\\debug\\res\\color\\mdtp_date_picker_selector.xml"
     },
     {
+        "merged": "E:\\Main\\time_picker\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\mdtp_date_picker_selector.xml",
+        "source": "E:\\Main\\time_picker\\build\\intermediates\\bundles\\debug\\res\\color\\mdtp_date_picker_selector.xml"
+    },
+    {
         "merged": "D:\\Main\\time_picker\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\mdtp_done_text_color.xml",
         "source": "D:\\Main\\time_picker\\build\\intermediates\\bundles\\debug\\res\\color\\mdtp_done_text_color.xml"
+    },
+    {
+        "merged": "E:\\Main\\time_picker\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\mdtp_done_text_color_dark.xml",
+        "source": "E:\\Main\\time_picker\\build\\intermediates\\bundles\\debug\\res\\color\\mdtp_done_text_color_dark.xml"
+    },
+    {
+        "merged": "E:\\Main\\time_picker\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\mdtp_date_picker_year_selector.xml",
+        "source": "E:\\Main\\time_picker\\build\\intermediates\\bundles\\debug\\res\\color\\mdtp_date_picker_year_selector.xml"
     },
     {
         "merged": "D:\\Main\\time_picker\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\mdtp_date_picker_year_selector.xml",

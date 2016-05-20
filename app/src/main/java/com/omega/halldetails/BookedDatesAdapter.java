@@ -54,6 +54,7 @@ public class BookedDatesAdapter extends BaseAdapter {
         ViewHolder holder = null;
 
 
+
         LayoutInflater mInflater = (LayoutInflater) context
                 .getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
 
